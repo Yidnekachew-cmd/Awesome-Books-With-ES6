@@ -97,9 +97,20 @@ header .nav {
   display: none;
 }
 
+form h1 {
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+}
+
 #contact h1 {
   text-align: center;
   font-size: 2rem;
+}
+
+.footer p {
+  font-weight: bold;
+  text-align: center;
 }
 
 #contact p {
@@ -134,12 +145,6 @@ input {
   padding: 1rem;
 }
 
-form h1 {
-  text-align: center;
-  font-size: 2rem;
-  width: 100%;
-}
-
 button {
   box-shadow: 3px 5px 5px black;
   font-weight: bold;
@@ -156,9 +161,4 @@ footer {
   width: 100%;
   padding: 2rem;
   font-size: 15px;
-}
-
-.footer p {
-  font-weight: bold;
-  text-align: center;
 }
