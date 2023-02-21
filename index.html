@@ -8,21 +8,35 @@
     <title>Awesome Books ES6</title>
   </head>
   <body>
+    <header>
     <nav class="nav">
-      <div class="nav-logo"><h2>Awesome Book📚</h2></div>
+      <div class="nav-logo">
+        <h2>Awesome Book📚</h2>
+      </div>
       <ul class="nav-list">
         <li class="listone">Books 📓</li>
         <li class="listtwo">add new ➕</li>
         <li class="listthree">Contact ✉️</li>
       </ul>
     </nav>
-
+    </header>
+   <section class="book-list">
     <div class="date"><span>Date</span></div>
-
     <div id="booksContainer">
       <h1 class="first-h1">All awesome books</h1>
       <div id="libraryBooks" data-book></div>
+      </section>
     </div>
+    <section class="Add-list">
+    <form action="#" id="myForm">
+      <h1>Add a new book</h1>
+      <input type="text" placeholder="Title" id="titleName" required />
+      <br />
+      <input type="text" placeholder="Author" id="authorName" required />
+      <br />
+      <button type="submit" class="submit-btn">Add</button>
+    </form>
+    </section>
     <section class="contact">
     <div id="contact">
       <h1>Contact Information</h1>
@@ -37,14 +51,6 @@
       </ul>
     </div>
     </section>
-    <form action="#" id="myForm">
-      <h1>Add a new book</h1>
-      <input type="text" placeholder="Title" id="titleName" required />
-      <br />
-      <input type="text" placeholder="Author" id="authorName" required />
-      <br />
-      <button type="submit" class="submit-btn">Add</button>
-    </form>
     <footer class="footer">
       <p>copyright c 2023, all rights reserved</p>
     </footer>
