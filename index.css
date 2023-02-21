@@ -67,15 +67,18 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
   border: 2px solid black;
-  width: 80%;
+  min-width: min-content;
+  width: 70%;
   margin: 2rem auto;
-  padding: 1.2rem;
+  padding: 0.5rem;
   border-radius: 5px;
 }
 
 .nav-logo {
-  width: 30%;
+  width: 10%;
+  margin-right: 2rem;
 }
 
 .nav-list {
@@ -83,16 +86,16 @@ button {
   align-items: center;
   justify-content: flex-end;
   gap: 1rem;
-  width: 100%;
+  width: 70%;
   list-style-type: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
 .nav-list li:nth-child(2) {
-  border-left: 2px solid;
-  border-right: 2px solid;
+  border-left: 0.1rem solid;
+  border-right: 0.1rem solid;
   padding: 0.4rem 0.5rem;
 }
 
