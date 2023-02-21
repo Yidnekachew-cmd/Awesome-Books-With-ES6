@@ -69,7 +69,7 @@ button {
   justify-content: space-between;
   gap: 2rem;
   border: 2px solid black;
-  min-width: min-content;
+  min-width: 300px;
   width: 70%;
   margin: 2rem auto;
   padding: 0.5rem;
@@ -78,7 +78,7 @@ button {
 
 .nav-logo {
   width: 10%;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .nav-list {
