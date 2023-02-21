@@ -51,6 +51,9 @@ form {
 
 form h1 {
   text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  border: 1px solid red;
 }
 
 button {
@@ -119,21 +122,26 @@ footer {
   text-align: center;
 }
 
+.contact {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+}
+
 #contact {
-  width: 40%;
-  margin: 4rem auto;
+  margin: 3rem auto;
   display: none;
 }
 
 #contact h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 #contact p {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  font-weight: bold;
-  font-size: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 #contact ul {
