@@ -68,17 +68,23 @@ button {
   align-items: center;
   justify-content: space-between;
   border: 2px solid black;
-  width: 70%;
+  width: 80%;
   margin: 2rem auto;
-  padding-left: 1rem;
+  padding: 1.2rem;
   border-radius: 5px;
+
+}
+
+.nav-logo {
+  width: 30%;
 }
 
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 50%;
+  justify-content: flex-end;
+  gap: 1rem;
+  width: 100%;
   list-style-type: none;
   font-weight: bold;
   font-size: 15px;
@@ -88,7 +94,7 @@ button {
 .nav-list li:nth-child(2) {
   border-left: 2px solid;
   border-right: 2px solid;
-  padding: 1.2rem 7rem;
+  padding: 0.4rem 0.5rem;
 }
 
 .date {
